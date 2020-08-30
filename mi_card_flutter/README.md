@@ -1,6 +1,6 @@
 "# mi_card_flutter"
 
-![screen]()
+![screen](https://github.com/Anna-Myzukina/Bootcamp-flutter/blob/master/mi_card_flutter/images/screen.PNG)
 
 
             import 'package:flutter/material.dart';
