@@ -1,1 +1,1 @@
-![screen]()
+![screen](https://github.com/Anna-Myzukina/Bootcamp-flutter/blob/master/i_am_rich/images/screen.PNG)
