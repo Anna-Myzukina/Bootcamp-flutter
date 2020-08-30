@@ -1,4 +1,4 @@
-![App Brewery Banner](https://github.com/londonappbrewery/Images/blob/master/AppBreweryBanner.png)
+![screen](https://github.com/Anna-Myzukina/Bootcamp-flutter/blob/master/dicee/images/gif.gif)
 
 
 # Dicee 🎲
@@ -11,8 +11,6 @@ The objective of this tutorial is to introduce you to the core programming conce
 ## What you will create
 
 We’re going to make a Las Vegas dice app. You can make the die roll at the press of a button. With this app in your pocket, you’ll be able to settle any score on the go!
-
-![Finished App](https://imgflip.com/gif/4d94mc)
 
 ## What you will learn
 
