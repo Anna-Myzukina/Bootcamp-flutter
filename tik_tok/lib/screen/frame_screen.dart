@@ -3,7 +3,7 @@ import 'package:tik_tok/screen/test_event.dart';
 //import 'package:tik_tok/data_model/event_data.dart';
 //import 'home_screen.dart';
 
-import 'package:tik_tok/screen/my_event.dart';
+//import 'package:tik_tok/screen/my_event.dart';
 
 class FrameScreen extends StatefulWidget {
   @override
