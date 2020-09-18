@@ -1,5 +1,6 @@
 //import 'package:flutter/material.dart';
 //import 'package:folding_cell/folding_cell.dart';
+//import 'package:tik_tok/widget/event_small_widget.dart';
 //
 //class MyEvent extends StatelessWidget {
 //  @override
@@ -91,32 +92,13 @@
 //}
 //
 //Container newFrontWidget() {
-//  return Container(
-//    color: Color(0xffdfd4f4),
-//    alignment: Alignment.center,
-//    child: Row(
-//      children: <Widget>[
-//        Expanded(
-//          flex: 1,
-//          child: Container(
-//            decoration: BoxDecoration(
-//              borderRadius: BorderRadius.circular(15.0),
-//              color: Colors.red,
-//              //image: Image.asset('images/ballroom.png'),
-//            ),
-//          ),
-//        ),
-//        Expanded(
-//          flex: 2,
-//          child: Container(
-//            decoration: BoxDecoration(
-//              borderRadius: BorderRadius.circular(15.0),
-//              color: Colors.white,
-//              //image: Image.asset('images/ballroom.png'),
-//            ),
-//          ),
-//        ),
-//      ],
-//    ),
-//  );
+//  return EventSmallWidget();
 //}
+//
+//
+////decoration: BoxDecoration(
+////image: DecorationImage(
+////image: AssetImage('images/bachata.png'),
+////fit: BoxFit.cover,
+////),
+////),

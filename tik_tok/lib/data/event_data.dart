@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:tik_tok/model/event_model.dart';
 
 const List<EventModel> eventItems = [

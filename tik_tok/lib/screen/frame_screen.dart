@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:tik_tok/screen/test_event.dart';
-//import 'package:tik_tok/data_model/event_data.dart';
-//import 'home_screen.dart';
-
-//import 'package:tik_tok/screen/my_event.dart';
+import 'file:///C:/Users/PC/AndroidStudioProjects/Bootcamp-flutter/tik_tok/lib/widget/event_generator.dart';
+import 'package:tik_tok/widget/navbar_widget.dart';
+import 'package:responsive_builder/responsive_builder.dart';
 
 class FrameScreen extends StatefulWidget {
   @override
@@ -13,12 +11,12 @@ class FrameScreen extends StatefulWidget {
 class _FrameScreenState extends State<FrameScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: TestEvent(),
-    );
+    return ResponsiveBuilder(
+        builder: (BuildContext context, SizingInformation sizingInformation) {
+      return Scaffold(
+        body: EventGenerator(),
+        bottomNavigationBar: NavBar(),
+      );
+    });
   }
 }
-
-// class EventDataSearch extends SearchDelegate<EventData>{
-
-// }

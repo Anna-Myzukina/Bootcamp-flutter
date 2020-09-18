@@ -13,26 +13,28 @@ class _EventFrontWidgetState extends State<EventFrontWidget> {
       alignment: Alignment.center,
       child: Row(
         children: <Widget>[
-          Expanded(
-            flex: 1,
-            child: Container(
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(15.0),
-                color: Colors.green,
-                //image: Image.asset('images/ballroom.png'),
-              ),
-            ),
-          ),
-          Expanded(
-            flex: 2,
-            child: Container(
-              decoration: BoxDecoration(
-                //borderRadius: BorderRadius.circular(15.0),
-                color: Colors.white,
-                //image: Image.asset('images/ballroom.png'),
-              ),
-            ),
-          ),
+          Image.asset('images/ballroom.png'),
+          // Expanded(
+          //   flex: 1,
+          //   child: Container(
+          //     decoration: BoxDecoration(
+          //       borderRadius: BorderRadius.circular(15.0),
+          //        ),
+                //color: Colors.green,
+                
+             
+          //   ),
+          // ),
+          // Expanded(
+          //   flex: 2,
+          //   child: Container(
+          //     decoration: BoxDecoration(
+          //       //borderRadius: BorderRadius.circular(15.0),
+          //       color: Colors.grey,
+          //       //image: Image.asset('images/ballroom.png'),
+          //     ),
+          //   ),
+          // ),
         ],
       ),
     );
