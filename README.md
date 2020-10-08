@@ -1,7 +1,5 @@
 ﻿# Bootcamp-flutter
  
- * i_am_rich
- * mi_card_flutter
- * dicee
- * magik_ball
- * xylophone
+ * [mi_card_flutter](https://github.com/Anna-Myzukina/Bootcamp-flutter/tree/master/mi_card_flutter)
+ * [tik-tok](https://github.com/Anna-Myzukina/Bootcamp-flutter/tree/master/tik_tok)
+ * [weather](https://github.com/Anna-Myzukina/Bootcamp-flutter/tree/master/weather)

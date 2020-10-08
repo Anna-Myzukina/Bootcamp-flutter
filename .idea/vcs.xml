@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/PerfumeShop" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gallery_photo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mi_card_flutter" vcs="Git" />
+  </component>
+</project>

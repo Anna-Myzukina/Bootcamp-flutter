@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/PerfumeShop/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/PerfumeShop/build" />
+      <excludeFolder url="file://$MODULE_DIR$/bmi_calculator/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/bmi_calculator/build" />
+      <excludeFolder url="file://$MODULE_DIR$/gallery_photo/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/gallery_photo/build" />
+      <excludeFolder url="file://$MODULE_DIR$/mi_card_flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/mi_card_flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/microgreens/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/microgreens/build" />
+      <excludeFolder url="file://$MODULE_DIR$/tik_tok/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/tik_tok/build" />
+      <excludeFolder url="file://$MODULE_DIR$/weather/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/weather/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
