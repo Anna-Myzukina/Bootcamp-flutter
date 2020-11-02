@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:weather/screens/loading_screen.dart';
-//import 'package:weather/screens/location_screen.dart';
+import 'package:weather/screens/location_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData.dark(),
-      home: LoadingScreen(),
+      home: LocationScreen(),
     );
   }
 }
