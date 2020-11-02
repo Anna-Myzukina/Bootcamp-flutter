@@ -1,9 +1,11 @@
 # weather
 
 A new Flutter project.
+![screen](https://github.com/Anna-Myzukina/Bootcamp-flutter/blob/master/weather/images/11.PNG)
 
 ## Getting Started
 
+![screen](https://github.com/Anna-Myzukina/Bootcamp-flutter/blob/master/weather/images/12.PNG)
 This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
