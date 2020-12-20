@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/src/widgets/container.dart';
+import 'package:flutter/src/widgets/container.dart';
 //import 'package:list_app/listData.dart';
 
 void main() {
@@ -11,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'List App Demo',
       theme: ThemeData(
-        primarySwatch: Colors.orange,
+        primarySwatch: Colors.yellow,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(),
@@ -50,30 +52,75 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text('List App'),
       ),
-      body: Center(
-        child: SafeArea(
-                  child: ListView(
-            children: <Widget>[
-              Column(
-                children: _dateString.map((String date) {
-                  return Card(
-                    color: Colors.blue,
-                    child: Text(
-                      date,
+      body: SafeArea(
+        child: Center(
+          child: Scrollbar(
+            child: ListView(
+              children: <Widget>[
+                Card(
+                  child: Text(
+                    'List of data:',
+                    style: TextStyle(
+                      fontSize: 30.0,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.grey,
                     ),
-                  );
-                }).toList(),
-              ),
-              Card(
-                child: Text('List'),
-              ),
-            ],
+                  ),
+                ),
+                Column(
+                  children: _dateString.map((String date) {
+                    return InkWell(
+                      onTap: () {
+                        Navigator.push(context, MaterialPageRoute(
+                            builder: (BuildContext context) => DetailsPage(
+                                  timeString: date,
+                                ),
+                                ),
+                                );
+                      },
+                      child: Container(
+                        decoration:
+                            BoxDecoration(border: Border(bottom: BorderSide())),
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Container(
+                            width: double.infinity,
+                            child: Text(
+                              date,
+                              textAlign: TextAlign.center,
+                            ),
+                          ),
+                        ),
+                      ),
+                    );
+                  }).toList(),
+                ),
+              ],
+            ),
           ),
         ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _saveData,
         child: Icon(Icons.add),
+      ),
+    );
+  }
+}
+
+class DetailsPage extends StatelessWidget {
+  DetailsPage({Key key, this.timeString}) : super(key: key);
+
+  final String timeString;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(timeString),
+      ),
+      body: Container(
+        
       ),
     );
   }
