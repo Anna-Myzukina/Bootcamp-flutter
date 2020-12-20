@@ -1,5 +1,5 @@
-import 'file:///C:/Users/PC/AndroidStudioProjects/Bootcamp-flutter/bmi_calculator/lib/components/constants.dart';
-import 'file:///C:/Users/PC/AndroidStudioProjects/Bootcamp-flutter/bmi_calculator/lib/components/reusable_card.dart';
+import '../components/constants.dart';
+import '../components/reusable_card.dart';
 import 'package:bmi_calculator/components/bottom_button.dart';
 import 'package:flutter/material.dart';
 

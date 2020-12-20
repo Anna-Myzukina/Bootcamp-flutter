@@ -6,7 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import '../components/bottom_button.dart';
 import '../components/icon_content.dart';
 import '../components/reusable_card.dart';
-import 'file:///C:/Users/PC/AndroidStudioProjects/Bootcamp-flutter/bmi_calculator/lib/components/constants.dart';
+import '../components/constants.dart';
 import 'package:bmi_calculator/screens/results_page.dart';
 
 enum GenderType {

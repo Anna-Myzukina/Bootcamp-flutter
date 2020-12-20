@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'file:///C:/Users/PC/AndroidStudioProjects/Bootcamp-flutter/tik_tok/lib/widget/event_generator.dart';
+import '../widget/event_generator.dart';
 import 'package:tik_tok/widget/navbar_widget.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
