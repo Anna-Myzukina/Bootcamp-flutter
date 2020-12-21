@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/container.dart';
-//import 'package:list_app/listData.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'List App Demo',
       theme: ThemeData(
-        primarySwatch: Colors.yellow,
+        primarySwatch: Colors.orange,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(),
@@ -50,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('List App'),
+        title: Text('Flutter App'),
       ),
       body: SafeArea(
         child: Center(
@@ -120,7 +117,7 @@ class DetailsPage extends StatelessWidget {
         title: Text(timeString),
       ),
       body: Container(
-        
+
       ),
     );
   }
