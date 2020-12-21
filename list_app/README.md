@@ -2,7 +2,7 @@
 
 A new Flutter project.
 
-[!screen](https://github.com/Anna-Myzukina/Bootcamp-flutter/blob/master/list_app/screen.PNG)
+![screen](https://github.com/Anna-Myzukina/Bootcamp-flutter/blob/master/list_app/screen.PNG)
 
 ## Getting Started
 
