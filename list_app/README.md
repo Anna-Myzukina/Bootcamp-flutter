@@ -2,6 +2,8 @@
 
 A new Flutter project.
 
+[!screen](https://github.com/Anna-Myzukina/Bootcamp-flutter/blob/master/list_app/screen.PNG)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
