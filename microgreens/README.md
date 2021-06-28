@@ -1,6 +1,7 @@
 # microgreens
 
-A new Flutter project.
+A new Flutter-example project.
+![img](https://github.com/Anna-Myzukina/Bootcamp-flutter/blob/master/microgreens/images/screen1.PNG)
 
 ## Getting Started
 
